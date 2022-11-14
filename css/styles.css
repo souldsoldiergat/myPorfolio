@@ -1,0 +1,83 @@
+/*Custom property*/
+:root{
+    /*Parametros de colores*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;  
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;/* 1 rem = 10px */
+    font-family: 'Krub', sans-serif;
+}
+/*parametros para configurar los rem en cualquier pantalla se adapta mejor a cualquier tipo de tamano*/
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    
+    /*font-family:'Bungee Spice', cursive;, 'Krub', sans-serif, 'Aref Ruqaa Ink', serif*/    
+}
+
+.titulo span{
+    font-size: 1.5rem;
+    color: royalblue;
+}
+
+.contenedor{
+    max-width: 120rem;    
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{    
+    display: flex;
+    flex-direction: column;    
+}
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+} 
+
+.hero {
+    background-image: url(../img/Banana_plantain_in_Costa_Rica_h.jpg);
+    background-repeat: no-repeat;
+   height: 430px;
+   padding: 20px;
+   position: relative;
+}
+.contenido-hero{
+    position: absolute;
+    background-color: rgba( 0,0,0, .7);
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+}

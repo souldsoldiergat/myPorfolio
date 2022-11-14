@@ -1,1 +1,136 @@
-<h1> Hola mi nombre Henry Yesca Soto, y te muestro mi trabajo como programador web front end </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Don Julio </title>
+
+    <link href="preload" href="css/normalize.css" as="style">
+    <link href="stylesheet" href="css/normalize.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap');
+    </style>
+    
+    <link href="preload" href="css/styles.css" as="style"><!--Precarga los stylos y hace que sea mas rapido la ejecucion   -->
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Contenido Encabezado Titulo de pagina   -->
+    <header>
+        <h1 class="titulo">Productos Don Julio <span>CR</span> </h1>
+    </header>
+
+    <!--Menu de navegacion -->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">  <!--contenedor es otra clase direferente, se separan por un espacio-->
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>        
+        </nav>
+    </div>    
+        
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2 class="titulo">Productos tostatos y otras variedades</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>        
+            <p>Alajuela, Upala</p>
+
+            <!--Enlace-->
+            <a href="#">Contactar</a>
+        </div>       
+    </section>
+     <!--Contenido  Principal    --> 
+    <main>
+        <h2>Mis Productos</h2>
+
+        <section>
+            <h2>Platanos</h2>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plant" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 15h10v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4z" />
+                <path d="M12 9a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3" />
+                <path d="M12 11a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3" />
+                <line x1="12" y1="15" x2="12" y2="9" />
+              </svg>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis minima quas ea et! Voluptatum a molestiae corporis quam.</p>
+        </section>
+
+        <section>
+            <h2>Mamones</h2>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lemon-2" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M18 4a2 2 0 0 1 1.185 3.611c1.55 2.94 .873 6.917 -1.892 9.682c-2.765 2.765 -6.743 3.442 -9.682 1.892a2 2 0 1 1 -2.796 -2.796c-1.55 -2.94 -.873 -6.917 1.892 -9.682c2.765 -2.765 6.743 -3.442 9.682 -1.892a1.999 1.999 0 0 1 1.611 -.815z" />
+              </svg>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis minima quas ea et! Voluptatum a molestiae corporis quam.</p>
+        </section>
+
+        <section>       
+            <h2>Arroz con leche</h2>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bitbucket" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3.648 4a0.64 .64 0 0 0 -.64 .744l3.14 14.528c.07 .417 .43 .724 .852 .728h10a0.644 .644 0 0 0 .642 -.539l3.35 -14.71a0.641 .641 0 0 0 -.64 -.744l-16.704 -.007z" />
+                <path d="M14 15h-4l-1 -6h6z" />
+              </svg>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. officiis minima quas ea et! Voluptatum a molestiae corporis quam.</p>
+        </section>
+
+    </main>
+     
+    <section>
+        <p>Contactos</p>
+
+        <form>
+            <fieldset>
+                <legend>Contantános llenando todos los campos</legend>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                
+                <div>
+                    <label>Teléfono</label>
+                    <input type="text" placeholder="Teléfono">
+                </div>
+                
+                <div>
+                    <label>Correo</label>
+                    <input type="text" placeholder="Correo electrónico">
+                </div>
+                
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                
+
+            </fieldset>
+        </form>
+
+    </section>
+     
+    <!--Contenido que va al pie de pagina    -->
+    <footer>
+        <p>Todos los derechos reservados, Henry Yesca Desarrollador Freelancer</p>
+    </footer>     
+    
+</body>
+</html>
