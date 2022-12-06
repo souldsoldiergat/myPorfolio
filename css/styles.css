@@ -19,10 +19,19 @@ body{
     font-size: 16px;/* 1 rem = 10px */
     font-family: 'Krub', sans-serif;
 }
+h1{
+    font-size: 3.8rem;
+}
+h2{
+
+}
+h3{
+
+}
 /*parametros para configurar los rem en cualquier pantalla se adapta mejor a cualquier tipo de tamano*/
 .titulo {
     text-align: center;
-    font-size: 3.8rem;
+    
     
     /*font-family:'Bungee Spice', cursive;, 'Krub', sans-serif, 'Aref Ruqaa Ink', serif*/    
 }
@@ -86,4 +95,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.contenido-hero h2,
+.contenido-hero p {
+    color: var(--blanco);
 }
