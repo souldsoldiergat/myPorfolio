@@ -41,6 +41,24 @@ h1,h2,h3{
     max-width: 120rem;    
     margin: 0 auto 0 auto;
 }
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 80%;
+    text-align: center;    
+}
+@media(min-width: 480px){
+    .boton{
+        width: auto;
+    }
+}
 .nav-bg{
     background-color: var(--secundario);
 }
@@ -99,4 +117,8 @@ h1,h2,h3{
 .contenido-hero h2,
 .contenido-hero p {
     color: var(--blanco);
+}
+.ubicacion{
+    display: flex;
+    align-items: flex-end;
 }
