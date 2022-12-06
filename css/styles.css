@@ -28,28 +28,20 @@ h2{
 h3{
     font-size: 1.8rem;
 }
-/*parametros para configurar los rem en cualquier pantalla se adapta mejor a cualquier tipo de tamano*/
-.titulo {
+h1,h2,h3{
     text-align: center;
-    
-    
-    /*font-family:'Bungee Spice', cursive;, 'Krub', sans-serif, 'Aref Ruqaa Ink', serif*/    
 }
-
 .titulo span{
     font-size: 1.5rem;
     color: royalblue;
 }
-
 .contenedor{
     max-width: 120rem;    
     margin: 0 auto 0 auto;
 }
-
 .nav-bg{
     background-color: var(--secundario);
 }
-
 .navegacion-principal{    
     display: flex;
     flex-direction: column;    
@@ -60,7 +52,6 @@ h3{
         justify-content: space-between;
     }
 }
-
 .navegacion-principal a{
     display: block;
     text-align: center;
@@ -74,7 +65,6 @@ h3{
     background-color: var(--primario);
     color: var(--oscuro);
 } 
-
 .hero {
     background-image: url(../img/Banana_plantain_in_Costa_Rica_h.jpg);
     background-repeat: no-repeat;
