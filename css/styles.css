@@ -8,6 +8,7 @@
     --gris: #757575;  
 }
 /*box sizing permite implementarse a todos los elementos mediante *,* */
+/*box sizing permite implementarse a todos los elementos mediante *,* */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -19,28 +20,29 @@ body{
     font-size: 16px;/* 1 rem = 10px */
     font-family: 'Krub', sans-serif;
 }
-/*parametros para configurar los rem en cualquier pantalla se adapta mejor a cualquier tipo de tamano*/
-.titulo {
-    text-align: center;
+h1{
     font-size: 3.8rem;
-    
-    /*font-family:'Bungee Spice', cursive;, 'Krub', sans-serif, 'Aref Ruqaa Ink', serif*/    
 }
-
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h1,h2,h3{
+    text-align: center;
+}
 .titulo span{
     font-size: 1.5rem;
     color: royalblue;
 }
-
 .contenedor{
     max-width: 120rem;    
     margin: 0 auto 0 auto;
 }
-
 .nav-bg{
     background-color: var(--secundario);
 }
-
 .navegacion-principal{    
     display: flex;
     flex-direction: column;    
@@ -51,7 +53,6 @@ body{
         justify-content: space-between;
     }
 }
-
 .navegacion-principal a{
     display: block;
     text-align: center;
@@ -65,10 +66,10 @@ body{
     background-color: var(--primario);
     color: var(--oscuro);
 } 
-
 .hero {
     background-image: url(../img/Banana_plantain_in_Costa_Rica_h.jpg);
     background-repeat: no-repeat;
+    
     
    height: 430px;
    padding: 20px;
@@ -76,6 +77,8 @@ body{
 }
 .contenido-hero{
     position: absolute;
+    background-color: rgba( 0,0,0, .7);/*Anterior*/
+    background-color: rgb( 0 0 0 / 70%);/*Algunos navegadores no soportan esta nueva funcion por lo que se deja*/
     background-color: rgba( 0,0,0, .7);/*Anterior*/
     background-color: rgb( 0 0 0 / 70%);/*Algunos navegadores no soportan esta nueva funcion por lo que se deja*/
     bottom: 0;
@@ -86,4 +89,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-hero h2,
+.contenido-hero p {
+    color: var(--blanco);
 }
